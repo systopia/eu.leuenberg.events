@@ -5,7 +5,7 @@
     {
       "_lookup": ["name"],
       "_translate": ["label", "description"],
-      "name": "council_session",
+      "name": "CouncilSession",
       "label": "Council Session",
       "description": "",
       "filter": "0",
@@ -15,8 +15,8 @@
     {
       "_lookup": ["name"],
       "_translate": ["label", "description"],
-      "name": "advisory_board",
-      "label": "Advisory board",
+      "name": "BoardSession",
+      "label": "Advisory Board",
       "description": "",
       "filter": "0",
       "is_reserved": "1",

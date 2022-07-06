@@ -32,6 +32,7 @@ class CRM_Remoteevent_RegistrationProfile_CouncilSession extends CRM_Remoteevent
         // ...
     ];
 
+    /** @var string[] participant fields */
     const PARTICIPANT_MAPPING = [
         'arrival_date'    => 'participant_travelinfo.event_travelinfo_arrival_date',
         'arrival_time'    => 'participant_travelinfo.event_travelinfo_arrival_time',
@@ -126,7 +127,7 @@ class CRM_Remoteevent_RegistrationProfile_CouncilSession extends CRM_Remoteevent
      */
     public function getFieldEntities($field_key)
     {
-        if (isset(self::PARTICIPANT_MAPPING[$field_key]) {
+        if (key_exists($field_key, self::PARTICIPANT_MAPPING)) { // Syntax error, unexpected '[', expecting '(' on line 129
             return ['Participant'];
         } else {
             return ['Contact'];
