@@ -42,4 +42,22 @@ class CRM_Remoteevent_RegistrationProfile_BoardSession extends CRM_Remoteevent_R
     {
         return 'BoardSession';
     }
+
+    /**
+     * @param string $locale
+     *   the locale to use, defaults to null (current locale)
+     *
+     * @return array field specs
+     * @see CRM_Remoteevent_RegistrationProfile::getFields()
+     *
+     */
+    public function getFields($locale = null)
+    {
+        $l10n = CRM_Remoteevent_Localisation::getLocalisation($locale);
+        $fields = parent::getFields($locale);
+
+        // add/remove fields
+
+        return $fields;
+    }
 }
