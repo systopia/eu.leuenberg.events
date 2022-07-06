@@ -1,0 +1,36 @@
+{
+  "_lookup": ["name"],
+  "name": "accomodation",
+  "_values": [
+    {
+      "_lookup": ["name"],
+      "_translate": ["label", "description"],
+      "name": "no_room",
+      "label": "No room",
+      "description": "",
+      "filter": "0",
+      "is_reserved": "1",
+      "is_active": "1"
+    },
+    {
+      "_lookup": ["name"],
+      "_translate": ["label", "description"],
+      "name": "single",
+      "label": "Single",
+      "description": "",
+      "filter": "0",
+      "is_reserved": "1",
+      "is_active": "1"
+    },
+    {
+      "_lookup": ["name"],
+      "_translate": ["label", "description"],
+      "name": "double",
+      "label": "Double",
+      "description": "",
+      "filter": "0",
+      "is_reserved": "1",
+      "is_active": "1"
+    }
+  ]
+}

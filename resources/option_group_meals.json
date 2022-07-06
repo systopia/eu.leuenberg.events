@@ -1,0 +1,46 @@
+{
+  "_lookup": ["name"],
+  "name": "meals",
+  "_values": [
+    {
+      "_lookup": ["name"],
+      "_translate": ["label", "description"],
+      "name": "breakfast",
+      "label": "Breakfast",
+      "description": "",
+      "filter": "0",
+      "is_reserved": "1",
+      "is_active": "1"
+    },
+    {
+      "_lookup": ["name"],
+      "_translate": ["label", "description"],
+      "name": "lunch",
+      "label": "Lunch",
+      "description": "",
+      "filter": "0",
+      "is_reserved": "1",
+      "is_active": "1"
+    },
+    {
+      "_lookup": ["name"],
+      "_translate": ["label", "description"],
+      "name": "coffee_break",
+      "label": "Coffee break",
+      "description": "",
+      "filter": "0",
+      "is_reserved": "1",
+      "is_active": "1"
+    },
+    {
+      "_lookup": ["name"],
+      "_translate": ["label", "description"],
+      "name": "dinner",
+      "label": "Dinner",
+      "description": "",
+      "filter": "0",
+      "is_reserved": "1",
+      "is_active": "1"
+    }
+  ]
+}

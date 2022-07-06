@@ -1,0 +1,26 @@
+{
+  "_lookup": ["name"],
+  "name": "remote_registration_profiles",
+  "_values": [
+    {
+      "_lookup": ["name"],
+      "_translate": ["label", "description"],
+      "name": "council_session",
+      "label": "Council Session",
+      "description": "",
+      "filter": "0",
+      "is_reserved": "1",
+      "is_active": "1"
+    },
+    {
+      "_lookup": ["name"],
+      "_translate": ["label", "description"],
+      "name": "advisory_board",
+      "label": "Advisory board",
+      "description": "",
+      "filter": "0",
+      "is_reserved": "1",
+      "is_active": "1"
+    }
+  ]
+}
