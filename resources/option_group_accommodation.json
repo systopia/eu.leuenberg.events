@@ -1,6 +1,6 @@
 {
   "_lookup": ["name"],
-  "name": "accomodation",
+  "name": "accommodation",
   "_values": [
     {
       "_lookup": ["name"],
