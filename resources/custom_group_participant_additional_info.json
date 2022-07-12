@@ -214,7 +214,7 @@
       "weight": "13",
       "name": "accommodation",
       "column_name": "accommodation",
-      "label": "Last Meal",
+      "label": "Accommodation",
       "data_type": "String",
       "html_type": "Select",
       "option_group_id": "accommodation",
