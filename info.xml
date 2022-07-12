@@ -24,6 +24,9 @@
   <classloader>
     <psr4 prefix="Civi\" path="Civi"/>
   </classloader>
+  <requires>
+    <ext>de.systopia.remoteevent</ext>
+  </requires>
   <civix>
     <namespace>CRM/Events</namespace>
   </civix>
