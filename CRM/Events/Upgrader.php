@@ -35,6 +35,7 @@ class CRM_Events_Upgrader extends CRM_Events_Upgrader_Base
 
         // custom groups
         $customData->syncCustomGroup(E::path('resources/custom_group_participant_additional_info.json'));
+        $customData->syncCustomGroup(E::path('resources/custom_group_participant_invoice_info.json'));
     }
 
 //    public function upgrade_0003()
