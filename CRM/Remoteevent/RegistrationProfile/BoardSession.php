@@ -134,7 +134,7 @@ class CRM_Remoteevent_RegistrationProfile_BoardSession extends CRM_Remoteevent_R
                 'weight' => 40,
                 'required' => 0,
                 'options' => $this->getOptions('title', $locale),
-                'label' => $l10n->localise('Prefix'),
+                'label' => $l10n->localise('Title'),
                 'parent' => 'contact_base',
             ],
             'first_name' => [
@@ -179,7 +179,7 @@ class CRM_Remoteevent_RegistrationProfile_BoardSession extends CRM_Remoteevent_R
                 'validation' => 'Email',
                 'weight' => 90,
                 'required' => 1,
-                'label' => $l10n->localise('email'),
+                'label' => $l10n->localise('Email'),
                 'parent' => 'contact_base',
             ],
             'phone' => [
@@ -188,7 +188,7 @@ class CRM_Remoteevent_RegistrationProfile_BoardSession extends CRM_Remoteevent_R
                 'validation' => '',
                 'weight' => 90,
                 'required' => 1,
-                'label' => $l10n->localise('phone'),
+                'label' => $l10n->localise('Phone'),
                 'parent' => 'contact_base',
             ],
             'preferred_language_1' => [
@@ -217,7 +217,7 @@ class CRM_Remoteevent_RegistrationProfile_BoardSession extends CRM_Remoteevent_R
                 'validation' => '',
                 'weight' => 90,
                 'required' => 1,
-                'label' => $l10n->localise('remarks'),
+                'label' => $l10n->localise('Remarks'),
                 'parent' => 'contact_base',
             ],
 
