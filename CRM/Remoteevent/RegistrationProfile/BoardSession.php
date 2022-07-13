@@ -26,7 +26,7 @@ class CRM_Remoteevent_RegistrationProfile_BoardSession extends CRM_Remoteevent_R
     // FIELD MAPPINGS
 
     const CONTACT_MAPPING = [
-        'prefix'                 => 'prefix',
+        'prefix_id'              => 'prefix_id',
         'title '                 => 'title',
         'first_name'             => 'first_name',
         'last_name'              => 'last_name',
@@ -119,13 +119,13 @@ class CRM_Remoteevent_RegistrationProfile_BoardSession extends CRM_Remoteevent_R
                 'weight' => 10,
                 'description' => '',
             ],
-            'prefix' => [
-                'name' => 'prefix',
+            'prefix_id' => [
+                'name' => 'prefix_id',
                 'type' => 'Select',
                 'validation' => '',
                 'weight' => 90,
                 'required' => 0,
-                'options' => $this->getOptions('prefix', $locale),
+                'options' => $this->getOptions('individual_prefix', $locale),
                 'label' => $l10n->localise('Prefix'),
                 'parent' => 'contact_base',
             ],
